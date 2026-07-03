@@ -9,7 +9,7 @@
     <header>
         <h1>Welcome to Laundary Wallah/laundary Mart.</h1>
     </header>
-    <p>Welcome to laundary Wallah/laundary Mart you door-step solution for all your laundary needs.Our dedicated team ensures top-notch service, prroviding a hassle-free and efficient laundary experience with a focus on quality and customer satisfaction. We take care of your garments as if they were our own.</p>
+    <p>Welcome to laundary Wallah/laundary Mart you door-step solution for all your laundary needs.Our dedicated team ensures top-notch service, prroviding a hassle-free and efficient laundary experience with a focus on quality and customer satisfaction. We take care of your garments as if they were our own.</p> 
     <img src="https://png.pngtree.com/png-vector/20240322/ourmid/pngtree-home-service-house-cleaning-and-laundry-wash-png-image_12190003.png" alt="laundary-image">
     <h2> Our Services</h2>
     <ul>
@@ -24,8 +24,10 @@
     <h2>Price List</h2>
     <table border="1">
         <thead>
-            <th> Service </th>
-            <th> Price </th>
+            <tr>
+                <th> Service </th>
+                <th> Price </th>
+            </tr>
         </thead>
         <tbody>
             <tr>
@@ -39,13 +41,15 @@
         </tbody>
     </table>
     <h2> Book Now </h2>
-        <label> name : </label>
-        <input type="text">
-        <label> Email-id: </label>
-        <input type="text">
-        <label> Phone-number: </label>
-        <input type="number">
-        <button>submit</button>
+        <form>
+            <label> name : </label>
+            <input type="text" required>
+            <label> Email-id: </label>
+            <input type="email" required>
+            <label> Phone-number: </label>
+            <input type="number" required>
+            <button>submit</button>
+        </form>
         <footer>
             <p> Contact us at: info@laundarymart.com </p>
         </footer>
