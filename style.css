@@ -14,10 +14,10 @@ body{
     height: 12vh;
     padding: 0px 5vw;
     text-align: center;
+    background-color: burlywood;
 }
 .navbar .logo, .navbar .nav-links, .navbar .nav-links li, .navbar .User-name{
     display: inline-block;
-    vertical-align: middle;
 }
 .navbar .logo{
     float: left;
@@ -55,24 +55,15 @@ body{
     padding: 10px 20px;
     margin-top: 3.5vh;
 }
-.navbar::after{
-    content: "";
-    display: table;
-    clear: both;
-}
 /*  Hero SEction Styling */
 .hero{
+    margin: 8vh 0;
     height: 88vh;
     width: 100vw;
     padding: 0 5vw;
     font-size: 0;
 }
-.hero:before{
-    content: "";
-    display: inline-block;
-    height: 100%;
-    vertical-align: middle;
-}
+
 .left-div, .right-div{
     display: inline-block;
     vertical-align: middle;
@@ -80,7 +71,7 @@ body{
 }
 .left-div{
     width: 50%;
-    padding-right: 15%;
+    padding-left: 12%;
 }
 .left-div h1{
     font-size: 3.2vw;
@@ -105,11 +96,6 @@ body{
     font-size: 1vw;
     font-weight: bold;
     border-radius: 15px;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
-}
-.left-div button:hover{
-    background-color: #3b8cc1;
 }
 .right-div{
     width: 50%;
